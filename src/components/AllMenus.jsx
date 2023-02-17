@@ -1,6 +1,7 @@
 import React from "react";
 import Menu1 from "./Menu1";
 import styled from "styled-components";
+import Menu2 from "./Menu2";
 
 const AllMenuCont = styled.div`
     height: 1000px;
@@ -22,6 +23,7 @@ const AllMenus = () => {
         <AllMenuCont>
             <h1>Hamburger Menus</h1>
             <Menu1 />
+            <Menu2 />
         </AllMenuCont>
     );
 };
